@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: weblog-web
+  profiles:
+    active: dev
+server:
+  port: 8180
+  servlet:
+    context-path: /web
