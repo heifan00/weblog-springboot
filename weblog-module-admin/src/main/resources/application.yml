@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: weblog-admin
+  profiles:
+    active: dev
+server:
+  port: 8189
+  servlet:
+    context-path: /admin
