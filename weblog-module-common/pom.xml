@@ -15,6 +15,10 @@
     <description>weblog-module-common (此模块用于存放一些通用的功能)</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!-- AOP 切面 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
